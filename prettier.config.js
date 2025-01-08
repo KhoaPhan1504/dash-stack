@@ -5,11 +5,11 @@
  * @type {import("prettier").Config}
  */
 const config = {
-  trailingComma: "es5",
+  trailingComma: 'es5',
   tabWidth: 2,
   printWidth: 145,
   semi: true,
-  bracketSpacing: true
+  bracketSpacing: true,
 };
 
 module.exports = config;

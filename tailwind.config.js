@@ -6,9 +6,7 @@ export default {
   corePlugins: {
     preflight: true,
   },
-  content: [
-    "./src/**/*.{html,js,jsx,ts,tsx}",
-  ],
+  content: ['./src/**/*.{html,js,jsx,ts,tsx}'],
   darkMode: 'class',
   theme: {
     fontFamily: {
@@ -23,12 +21,12 @@ export default {
     },
     extend: {
       width: {
-        '240': '240px',
-        '192': '192px',
+        240: '240px',
+        192: '192px',
       },
       height: {
-        '50': '50px',
-        '81': '81px',
+        50: '50px',
+        81: '81px',
       },
       colors: {
         current: 'currentColor',
@@ -37,13 +35,12 @@ export default {
         'custom-navbar': 'rgba(72, 128, 255, 1)',
       },
       spacing: {
-        '24': '24px',
+        24: '24px',
       },
       textColor: {
-        'custom-black': 'rgba(32, 34, 36, 1)'
-      }
+        'custom-black': 'rgba(32, 34, 36, 1)',
+      },
     },
   },
   plugins: [],
-}
-
+};

@@ -1,20 +1,20 @@
-import { 
-  Gauge, 
-  Grid2x2, 
-  Heart, 
-  MessagesSquare, 
-  ListChecks, 
-  Rows3, 
-  Gift, 
-  CalendarDays, 
-  ClipboardCheck, 
-  UsersRound, 
-  Banknote, 
-  AlignEndHorizontal, 
+import {
+  Gauge,
+  Grid2x2,
+  Heart,
+  MessagesSquare,
+  ListChecks,
+  Rows3,
+  Gift,
+  CalendarDays,
+  ClipboardCheck,
+  UsersRound,
+  Banknote,
+  AlignEndHorizontal,
   UserRound,
   Grid3x3,
   Settings,
-  Power
+  Power,
 } from 'lucide-react';
 
 export const mainNavItems = [

@@ -13,6 +13,7 @@ export const Sidebar = () => {
   
   return (
     <>
+    
       <div className="w-[240px] h-screen bg-white border-r border-gray-200 flex flex-col">
       <div className="h-81 flex justify-center ">
         <img src={LogoStack} alt="" />

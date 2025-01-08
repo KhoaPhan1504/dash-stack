@@ -1,10 +1,11 @@
 import React from 'react'
 import './App.css'
+import { Sidebar } from './components/layouts/DefaultLayout/components'
 
 function App() {
   return (
     <>
-      <h1>dash-stack</h1>
+      <Sidebar />
     </>
   )
 }
